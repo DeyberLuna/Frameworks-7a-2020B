@@ -17,7 +17,7 @@ total=0
 totalpa=0
 totalim=0
 print("Bienvenido")
-nu=int(input('introduce el numero de veces que lanzaras el dado '))
+nu=int(input('Ingrese el numero de veces a tirar '))
 while i <= nu :
     print("Tiro Nro: ", i)
     dd = dices()
