@@ -1,5 +1,55 @@
-<html>
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse 2020</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    
     <header>
-        <h1>Esta es la primera vista register de la app warehouse</h1>
+       
+        <br>
+        <h1>Warehouse</h1>
+        
+        <br>
     </header>
+    <form id="formato"action="" method="POST">
+        <table id="tablaa">
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="txtName" class="entrada" id="txtName" required minlength="3" maxlength="10"></td>
+                
+            </tr>
+            
+            <tr>
+                <td>Correo:</td>
+                <td><input type="email" name="txtEmail" class="entrada" id="txtEmail" required 
+                placeholder="example@hotmail.com"></td>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="text" name="Contraseña" class="entrada"id="Contraseña" required></td>
+                </tr>
+                <td>Verificar Contraseña:</td>
+                <td><input type="text" name="Verificar" class="entrada" id="Verificar" required></td>
+                </tr>
+            </tr>
+           
+            
+        </table>
+        
+        <input type="button"   name="Registrar" value="Registrar" id="Registrar">
+        
+        
+
+
+    </form>
+    
+   
+    
+</body>
 </html>

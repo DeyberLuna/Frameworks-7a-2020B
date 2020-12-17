@@ -7,7 +7,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 
-def registerr(request):
+def register(request):
     return render(request, 'template_register_warehouse.html', {})
 
 
